@@ -1,0 +1,17 @@
+[
+    {"title": "Meet Our Board Memebers!",
+        "name": "AAA",
+        "position": "pres",
+        "role": ["be in cheif", "Organize events", "call meeting"]
+    },
+    {
+        "name": "BBB",
+        "position": "Vpres",
+        "role": ["INCASE chief OUT SICK", "assist in meetings"]
+    },
+    {
+        "name": "CCC",
+        "position": "Secretary",
+        "role": ["document", "be in all meeting"]
+    }
+]

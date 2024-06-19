@@ -25,11 +25,31 @@
             <p class="paragraph">We welcome ALL Players! <br> You could be a long time gamer, console gamers, to a first time PC gamers. <br> Even those who've never played video games before! <br> We have an excellent coach and team mebers who are more than happy to train you along your gaming journey!</p>
             
             <button class="contact"><a href="GWU.html">GAME WITH US</a></button>
+            <div class="faq--01">
+                <h1></h1>
+            </div>
 
-            <h3> Meet Our Board Memebers!</h3>
-            <!--add memebrs with gamer tags-->
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    fetch('./roles.json')
+                        .then((response) => response.json())
+                        .then((json) => {
+                            const header = document.querySelector(".faq--01 h1")
+                            header.innerText = json[0].title;
+                            const sub_parag = document.querySelector(".faq--01 p")
+                            sub_parag.innerHTML = json[0].answer;
+                        })
+                });
+            </script>
 
         </div>
     </div>
 </body>
+<footer>
+    <div class="social-icons">
+        <a href="https://discord.com/channels/1233824924129562624/1241271117855854652" target="_blank" class="icon discord"><img src="discor.png" alt="Discord"></a>
+        <a href="https://www.instagram.com/elac_esportsclub/" target="_blank" class="icon instagram"><img src="ig.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/@elacesportsclub?_t=8nCMEQwhvuZ&_r=1" target="_blank" class="icon tiktok"><img src="tikt.png" alt="TikTok"></a>
+    </div>    
+</footer>
 </html>
