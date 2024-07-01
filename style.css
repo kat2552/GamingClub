@@ -106,44 +106,8 @@ h3 {
     margin-top: 50px;
 }
 
-.GMUForm{
-    width: 250 px;
-    height: 200px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: bottom;
-    top: 150px;
-    left: 870px;
-    border-radius: 10px;
-    padding: 25px;
-    }
     
-    .GMUForm h2{
-    width: 220px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: orange;
-    font-size: 22px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-    }
-    
-    .GMUForm input{
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid orange;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: white;
-    font-size: 15px;
-    margin-top: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    .btnn{
+.btnn{
     width: 240px;
     height: 40px;
     background: orange;
@@ -154,19 +118,136 @@ h3 {
     cursor: pointer;
     color: white;
     transition: 0.4s ease;
-    }
+}
     
-    .btnn
-    {
+.btnn{
     background: white;
     color: orange;
-    }
+}
     
-    .btnn a{
+.btnn a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    }
+}
+
+.flyer {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.flyer img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.flyer-description h3 {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.flyer-description p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.flyer-description .btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.flyer-description .btn:hover {
+    background-color: white;
+    color: orange;
+}
+
+.flyer {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.flyer img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.flyer-description h3 {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.flyer-description p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.flyer-description .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.flyer-description .btn:hover {
+    background-color: white;
+    color: orange;
+}
+
+iframe {
+    width: 500px;
+    height: 600px; 
+    border: none; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.iframe-container iframe {
+    width: 80%;
+    max-width: 600px;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 
 footer {
     position: fixed;
@@ -203,3 +284,4 @@ footer {
     opacity: 1;
     filter: brightness(150%);
 }
+
