@@ -6,11 +6,21 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('vr.jpg'); 
+    min-height: 100vh; 
+    padding: 0; 
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('logo.jpg');
     background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
+    background-position: center 15%;
+    z-index: -1; 
+    overflow: hidden;
 }
 
 .wrapper {
@@ -77,13 +87,14 @@ header {
 .content h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px; 
+    margin-top: 100px;
 }
 
 .content .paragraph {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .contact {
